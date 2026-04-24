@@ -1,0 +1,31 @@
+# --- Core Framework & Web Server ---
+fastapi==0.128.0
+uvicorn==0.40.0
+pydantic==2.12.5
+python-multipart==0.0.22
+
+# --- AI & Computer Vision (The Golden Trio) ---
+# These specific versions prevent the C++ crash on Windows
+mediapipe==0.10.18
+protobuf==4.25.3
+numpy==1.26.4
+
+# --- Deep Learning & Emotion Analysis ---
+tensorflow==2.15.0
+keras==2.15.0
+deepface==0.0.99
+fer==22.5.1
+opencv-python==4.9.0.80
+
+# --- Audio Processing ---
+librosa==0.11.0
+soundfile==0.13.1
+sounddevice==0.5.5
+SpeechRecognition==3.14.5
+openai-whisper==20250625
+
+# --- Utilities ---
+httpx==0.28.1
+groq==1.0.0
+python-dotenv==1.2.1
+jinja2==3.1.6

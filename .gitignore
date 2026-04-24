@@ -1,0 +1,16 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Whisper Models
+*.pt
+*.bin
+models/whisper/
+
+# MediaPipe & temporary files
+temp_video*
+*.mp4
+
+# Environment variables
+.env
